@@ -1,0 +1,63 @@
+.ofertas{
+    color: $marron;
+    &-content{
+        background: rgb(151, 229, 151);
+        padding: 30px ;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+    &-content{
+        grid-column: span 4;
+        justify-content: center;
+            
+    }
+    article{
+        background-color: $azul;
+        padding: 50px;
+        margin-top: 20px;
+        border-radius: 25px;
+        h1, p{
+            padding: 10px ;
+            font-size:20px;
+            color: white;
+            max-width: 900px;
+        }
+        }
+        &-maldivas{
+            background: url(../img/Maldivas.jpg) no-repeat center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            height: 100%;
+            width: 100% ;
+            padding: 10px ;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 20px;
+        }
+        &-corea{
+            background: url(../img/Corea.jpg) no-repeat center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            height: 100%;
+            width: 100% ;
+            padding: 10px ;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 20px;
+        }
+        &-bariloche{
+            background: url('../img/Bariloche.jpg') no-repeat center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            height: 100%;
+            width: 100% ;
+            padding: 10px ;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 20px;
+        }
+    }
+}
+

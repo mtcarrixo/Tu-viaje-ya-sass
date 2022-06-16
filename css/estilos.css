@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Roboto:ital,wght@1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.navbar {
+  background-color: #1ca7d1; }
+  .navbar-nav {
+    margin-bottom: 2px; }
+
+.carousel-inner img {
+  max-height: 400px; }
+
+.ofertas {
+  color: brown; }
+  .ofertas-content {
+    background: #97e597;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px; }
+    .ofertas-content-content {
+      grid-column: span 4;
+      justify-content: center; }
+    .ofertas-content article {
+      background-color: #000bac;
+      padding: 50px;
+      margin-top: 20px;
+      border-radius: 25px; }
+      .ofertas-content article h1, .ofertas-content article p {
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+        max-width: 900px; }
+    .ofertas-content-maldivas {
+      background: url(../img/Maldivas.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 20px; }
+    .ofertas-content-corea {
+      background: url(../img/Corea.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 20px; }
+    .ofertas-content-bariloche {
+      background: url("../img/Bariloche.jpg") no-repeat center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 20px; }
+
+.redes {
+  height: 100px; }
+  .redes-iconos a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 30px; }
+    .redes-iconos a i:hover {
+      color: chartreuse;
+      cursor: pointer; }
+
+.sfooter {
+  height: 25px;
+  background: #5f0b0b; }
+  .sfooter h4 {
+    font-size: 17px;
+    color: black;
+    text-align: center; }
+
+.contactow {
+  width: 3em;
+  height: 3em;
+  position: fixed;
+  right: 5px;
+  bottom: 7px; }
