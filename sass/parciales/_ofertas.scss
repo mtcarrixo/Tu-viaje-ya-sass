@@ -1,5 +1,5 @@
 .ofertas{
-    color: $marron;
+    color: map-get($colores,"verde");
     &-content{
         background: rgb(151, 229, 151);
         padding: 30px ;
@@ -15,12 +15,17 @@
         padding: 50px;
         margin-top: 20px;
         border-radius: 25px;
-        h1, p{
+        h1{
             padding: 10px ;
             font-size:20px;
             color: white;
             max-width: 900px;
         }
+        
+        p{
+            @extend h1;
+        }
+        
         }
         &-maldivas{
             background: url(../img/Maldivas.jpg) no-repeat center;
@@ -28,8 +33,7 @@
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            height: 100%;
-            width: 100% ;
+            @include tamano;
             padding: 10px ;
             border: 1px solid rgb(0, 0, 0);
             border-radius: 20px;
@@ -40,8 +44,7 @@
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            height: 100%;
-            width: 100% ;
+            @include tamano;
             padding: 10px ;
             border: 1px solid rgb(0, 0, 0);
             border-radius: 20px;
@@ -52,8 +55,7 @@
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            height: 100%;
-            width: 100% ;
+            @include tamano;
             padding: 10px ;
             border: 1px solid rgb(0, 0, 0);
             border-radius: 20px;

@@ -296,5 +296,13 @@
     "yargs": "^17.5.1",
     "yargs-parser": "^20.2.9",
     "xdg-basedir": "^4.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtcarrixo/Tu-viaje-ya-sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mtcarrixo/Tu-viaje-ya-sass/issues"
+  },
+  "homepage": "https://github.com/mtcarrixo/Tu-viaje-ya-sass#readme"
 }
